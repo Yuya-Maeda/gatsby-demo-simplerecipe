@@ -15,8 +15,8 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            {/* <img src={logo} alt="simply recipes" /> */}
-            <h2>Gatsby デモ</h2>
+            <img src={logo} alt="simply recipes" />
+            {/* <h2>Gatsby デモ</h2> */}
           </Link>
           <button className="nav-btn" onClick={showHandler}>
             <FiAlignJustify />
